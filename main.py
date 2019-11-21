@@ -26,7 +26,7 @@ datasetpath = os.path.join(datasets_path, datasetname)
 os.environ['CUDA_VISIBLE_DEVICES'] = args.device
 
 # parameters
-batchsize = 8
+batchsize = 32
 
 osmeflag = args.osme
 nparts = args.nparts     # number of parts you want to use for your dataset
